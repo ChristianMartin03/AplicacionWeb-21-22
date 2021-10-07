@@ -1,0 +1,147 @@
+
+.primario {
+    border: 2px solid plum;
+    position:relative;
+    background: plum;
+    height: 100px;
+    width: 100px;
+
+}
+
+.secundario {
+    border: 2px solid palegreen;
+    position:relative;
+    background: palegreen;
+    height:100px;
+    width: 100px;
+
+}
+.tercer {
+    border: 2px solid plum;
+    position:relative;
+    background: plum;
+    height: 100px;
+    width: 100px;
+    float: left;
+
+}
+
+.cuarto {
+    border: 2px solid palegreen;
+    position:relative;
+    background: palegreen;
+    height:100px;
+    width: 100px;
+    float: left;
+
+}
+.quinto {
+    border: 2px solid plum;
+    background: plum;
+    height: 100px;
+    width: 100px;
+    float: right;
+
+}
+
+.sexto {
+    border: 2px solid palegreen;
+    background: palegreen;
+    height:100px;
+    width: 100px;
+    float: left;
+
+}
+
+.septimo {
+    border: 2px solid palegreen;
+    background: palegreen;
+    height:100px;
+    width: 100px;
+    float: left;
+}
+.octavo {
+    border: 2px solid palegreen;
+    background: palegreen;
+    height:100px;
+    width: 100px;
+    float: right;
+
+}
+.noveno {
+    border: 2px solid palegreen;
+    background: palegreen;
+    height:100px;
+    width: 100px;
+    float: right;
+
+}
+.decimo {
+    border: 2px solid palegreen;
+    background: palegreen;
+    height:100px;
+    width: 100px;
+    float: right;
+}
+.onceavo {
+    border: 2px solid palegreen;
+    background: palegreen;
+    height:100px;
+    width: 100px;
+    float: right;
+
+}
+.doceavo {
+    border: 2px solid white;
+    background: white;
+    height:100px;
+    width: 100px;
+    
+}
+.treceavo {
+    border: 2px solid plum;
+    background: plum;
+    height:100px;
+    width: 100px;
+
+}
+.caja {
+    display: block;
+
+}
+.catorceavo {
+    border: 2px solid palegreen;
+    position: relative;
+    background: palegreen;
+    height:100px;
+    width: 200px;
+
+}
+.quinceavo {
+    border: 2px solid plum;
+    position: relative;
+    background: plum;
+    height:100px;
+    width: 200px;
+    top: -70px;
+    left: 30px;
+}
+.decimosexto {
+    border: 2px solid palegreen;
+    position: relative;
+    background: palegreen;
+    height:100px;
+    width: 200px;
+    z-index: 1;
+
+}
+.decimoseptimo {
+    border: 2px solid plum;
+    position: relative;
+    background: plum;
+    height:100px;
+    width: 200px;
+    top: -70px;
+    left: 30px;
+
+}
