@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formularios.css">
+    <title>Formulario</title>
+    
+</head>
+<style>
+    div {
+      background-image: url('https://i.pinimg.com/originals/d6/d0/d6/d6d0d6624ee9861dcc28a83d428db960.jpg');
+    }
+    </style>
+<body>
+    <div class="contact_form">
+    <div class="formulario">
+            <h1>Acceso A Empresa</h1>
+            <h3>Complete Con Sus Datos</h3>
+        </div>
+        <form action="" method=""></form>
+
+            <p>
+                <label class="colocar_nombre">Nombre:</label>
+                <input type="text" required="obligatorio" placeholder="Escribir tu nombre">
+            </p>
+            <p>
+                <label class="colocar_apellidos">Apellidos:</label>
+                <input type="text" required="obligatorio" placeholder="Escribir tus apellidos">
+            </p>
+            <p>
+                <label class="colocar_edad">Edad:</label>
+                <input type="text" required="obligatorio" placeholder="Escribir tu edad">
+            </p>
+            <p>
+                <label class="colocar_dni">DNI:</label>
+                <input type="text" required="obligatorio" placeholder="Escribir tu DNI">
+            </p>
+            <p>
+                <label class="colocar_sexo">Sexo:</label>
+                <label for="html">Masculino</label>
+                <input type="radio" id="Masculino" class="Masculino" name="fav_language" value="Masculino">
+                <label for="html">Femenino</label>
+                <input type="radio" id="Femenino" class="Femenino" name="fav_language" value="Femenino">
+
+            </p>
+            <p>
+                <label class="colocar_idioma">Idioma Principal:</label>
+            <select>
+            <option value="suma">Español</option>
+            <option value="resta">Ingles</option>
+            <option value="multiplicacion">Frances</option>
+            <option value="division">Aleman</option>
+            </select>
+            </p>
+            <p>
+                <label class="colocar_email">Email:</label>
+                <input type="email" required="obligatorio" placeholder="Escribe tu dirección">
+            </p>
+            <h4>Elija un color:</h4><input type="color">  <br/>
+            <p>
+                <label class="colocar_ciudad">Ciudad:</label>
+                <input type="ciudad" placeholder="Escribe tu ciudad">
+            </p>
+            <h4>Adjunte su curriculum:</h4><input type="file" class="curriculum">  
+            <h4>Adjunte su foto:</h4><input type="file">  
+            <p>
+                <label class="colocar_mensaje">Mensaje:</label>
+                <textarea class="texto_mensaje" placeholder="Introduce aqui tu mensaje..."></textarea>
+            </p>
+            <button type="submit">Enviar</input>
+    </div>
+</body>
+</html>
