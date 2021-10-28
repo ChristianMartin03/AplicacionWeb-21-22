@@ -63,21 +63,20 @@ button {
 
 button:hover {
     height: 50px;
-    border: 2px solid grey;
-    background-color:lightblue;
-}
-textarea :hover{
-    background-color: red;
-    border: 2px solid grey;
-}
-
-.formulario textarea:focus{
-    outline: 0;
-    border: 3px solid rgb(61,59,59);
+    border: 2px solid rgb(7, 7, 7);
+    background-color:rgb(247, 189, 0);
 }
 
 h4 {
     font-family: cursive;
+    width: 160px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
 }
 .Masculino {
     height: auto;
@@ -86,4 +85,115 @@ h4 {
 .Femenino {
     height: auto;
     width: auto;
+}
+
+h1 {
+    width: 420px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: orange;
+}
+
+h3 {
+    width: 420px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: orange;
+}
+.colocar_nombre{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: orange;
+}
+.colocar_apellidos{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+.colocar_edad{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+.colocar_dni{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+.colocar_sexo{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+.colocar_idioma{
+    width: 130px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+.colocar_email{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+.colocar_ciudad{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+}
+.colocar_mensaje{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
 }
