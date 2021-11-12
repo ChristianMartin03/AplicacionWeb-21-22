@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parallel</title>
+    <link rel="stylesheet" type="text/css" href="parallel.css">
+</head>
+<body>
+<div class="parallax1"></div>
+
+<div style="color: black;background-color:burlywood;text-align:center;padding:70px 80px;text-align: justify;">
+    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+    and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth,
+    the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure,
+    but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. 
+</div>
+
+<div class="parallax2"></div>
+
+<div style="color:black;background-color:grey;text-align:center;padding:50px 80px;text-align: justify;">
+    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+    and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth,
+    the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure,
+    but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. 
+</div>
+
+<div class="parallax3"></div>
+
+<div style="color:black;background-color:grey;text-align:center;padding:50px 80px;text-align: justify;">
+    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+    and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth,
+    the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure,
+    but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. 
+</div>
+
+<div class="parallax4"></div>
+
+<body>
+
+    <h2>Carrousel</h2>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://www.puertassancas.com/wp-content/uploads/2018/05/Instalaci%C3%B3n-de-parquet-sobre-suelo-radiante1-800x480.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://tucomparadordereformas.com/wp-content/uploads/2019/03/reforma-integral-suelo-madera.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://estructurasdemadera.online/wp-content/uploads/2020/12/Tarima-flotante.jpg" style="width:100%">
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2500); 
+    }
+</script>
+</body>
+</html>
